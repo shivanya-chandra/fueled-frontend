@@ -1,6 +1,8 @@
+import '../App.css';
+
 function Home() {
     return (
-        <>
+        <div className="home-main">
         <div className="flex-container-1">
             Logo
             <h1 className="home-heading">Welcome</h1>
@@ -13,7 +15,7 @@ function Home() {
         <div className="flex-container-2">
             svg
         </div>
-        </>
+        </div>
     );
 }
 
