@@ -1,8 +1,9 @@
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello this is a project for fueled</h2>
+      <Home />
     </div>
   );
 }
