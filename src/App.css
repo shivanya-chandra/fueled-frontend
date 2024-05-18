@@ -20,7 +20,8 @@
 }
 
 body {
-  background-color: var(--primary-cream)
+  background-color: var(--primary-cream);
+  overflow: hidden;
 }
 
 .home-main {
