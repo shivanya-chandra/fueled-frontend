@@ -3,6 +3,15 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Ranade';
+  src: url('../assets/Ranade-Light.otf');
+  font-family: 'Archivo Bold';
+  src: url('../assets/Archivo-Bold.otf');
+  font-family: 'Archivo SB';
+  src: url('../assets/Archivo-SemiBold.otf')
+}
+
 :root {
   --primary-red: #800020;
   --primary-cream: #F7E7CE;
@@ -10,7 +19,7 @@
   --secondary-cream: #EDD3AA;
 }
 
-body{
+body {
   background-color: var(--primary-cream)
 }
 
@@ -35,6 +44,7 @@ body{
 .flex-container-2 {
   height: 100%;
   width: 100%;
+
   /* background-color: violet; */
   display: flex;
   align-self: center;
@@ -45,21 +55,56 @@ body{
 .home-heading,
 .home-description,
 .home-sign-up,
-.home-sign-in{
-  margin-top: 30px;
+.home-sign-in {
+  margin-top: 10px;
 }
 
 .home-sign-up,
-.home-sign-in{
+.home-sign-in {
   padding: 15px;
   font-size: 16px;
+
 }
 
-.home-heading{
-  font-style: archivo;
+.home-sign-in {
+  margin-top: 50px;
 }
 
-.home-description{
+.home-heading {
+  font-family: Archivo SB;
+  color: var(--primary-red);
+  font-weight: bold;
+  font-size: 74px;
+
+}
+
+.home-description {
   text-align: center;
+  font-family: Ranade;
+  color: var(--primary-red);
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 
+}
+
+.home-sign-in {
+  border: 3px solid var(--primary-red);
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: var(--primary-cream);
+  border-radius: 10px;
+  font-family: Archivo SB;
+  color: var(--primary-red);
+}
+
+.home-sign-up {
+  margin-top: 20px;
+  border: none;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: var(--primary-red);
+  border-radius: 10px;
+  font-family: Archivo SB;
+  color: var(--primary-cream);
 }
