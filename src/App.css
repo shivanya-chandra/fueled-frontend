@@ -97,6 +97,8 @@ body {
   border-radius: 10px;
   font-family: Archivo SB;
   color: var(--primary-red);
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .home-sign-up {
@@ -108,4 +110,10 @@ body {
   border-radius: 10px;
   font-family: Archivo SB;
   color: var(--primary-cream);
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.home-sign-in:hover,
+.home-sign-up:hover{
+  transform: translateY(-10px);
 }
